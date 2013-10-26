@@ -15,11 +15,6 @@
 		A73B0A29181BB9A400DE9407 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A28181BB9A400DE9407 /* AppDelegate.m */; };
 		A73B0A2C181BB9A400DE9407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A2A181BB9A400DE9407 /* Main.storyboard */; };
 		A73B0A31181BB9A400DE9407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A30181BB9A400DE9407 /* Images.xcassets */; };
-		A73B0A38181BB9A400DE9407 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73B0A37181BB9A400DE9407 /* XCTest.framework */; };
-		A73B0A39181BB9A400DE9407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73B0A18181BB9A400DE9407 /* Foundation.framework */; };
-		A73B0A3A181BB9A400DE9407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73B0A1C181BB9A400DE9407 /* UIKit.framework */; };
-		A73B0A42181BB9A400DE9407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A40181BB9A400DE9407 /* InfoPlist.strings */; };
-		A73B0A44181BB9A400DE9407 /* APPinCodeExpampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A43181BB9A400DE9407 /* APPinCodeExpampleTests.m */; };
 		A73B0A53181BBA8400DE9407 /* APPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A4F181BBA8400DE9407 /* APPinView.m */; };
 		A73B0A54181BBA8400DE9407 /* APPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A51181BBA8400DE9407 /* APPinViewController.m */; };
 		A73B0A55181BBA8400DE9407 /* APPinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A52181BBA8400DE9407 /* APPinViewController.xib */; };
@@ -30,16 +25,6 @@
 		A73B0A61181BBDDC00DE9407 /* SamplePinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A60181BBDDC00DE9407 /* SamplePinViewController.m */; };
 		A73B0A64181BBE9200DE9407 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A63181BBE9200DE9407 /* RootViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A73B0A3B181BB9A400DE9407 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A73B0A0D181BB9A400DE9407 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A73B0A14181BB9A400DE9407;
-			remoteInfo = APPinCodeExpample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A73B0A15181BB9A400DE9407 /* APPinExpample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPinExpample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,11 +39,7 @@
 		A73B0A28181BB9A400DE9407 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A73B0A2B181BB9A400DE9407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A73B0A30181BB9A400DE9407 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A73B0A36181BB9A400DE9407 /* APPinExpampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPinExpampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73B0A37181BB9A400DE9407 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A73B0A3F181BB9A400DE9407 /* APPinExpampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APPinExpampleTests-Info.plist"; sourceTree = "<group>"; };
-		A73B0A41181BB9A400DE9407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A73B0A43181BB9A400DE9407 /* APPinCodeExpampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPinCodeExpampleTests.m; sourceTree = "<group>"; };
 		A73B0A4E181BBA8400DE9407 /* APPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPinView.h; sourceTree = "<group>"; };
 		A73B0A4F181BBA8400DE9407 /* APPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPinView.m; sourceTree = "<group>"; };
 		A73B0A50181BBA8400DE9407 /* APPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPinViewController.h; sourceTree = "<group>"; };
@@ -85,16 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A73B0A33181BB9A400DE9407 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A73B0A38181BB9A400DE9407 /* XCTest.framework in Frameworks */,
-				A73B0A3A181BB9A400DE9407 /* UIKit.framework in Frameworks */,
-				A73B0A39181BB9A400DE9407 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				A73B0A1E181BB9A400DE9407 /* APPinCodeExpample */,
-				A73B0A3D181BB9A400DE9407 /* APPinCodeExpampleTests */,
 				A73B0A17181BB9A400DE9407 /* Frameworks */,
 				A73B0A16181BB9A400DE9407 /* Products */,
 			);
@@ -112,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				A73B0A15181BB9A400DE9407 /* APPinExpample.app */,
-				A73B0A36181BB9A400DE9407 /* APPinExpampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,24 +121,6 @@
 				A73B0A21181BB9A400DE9407 /* InfoPlist.strings */,
 				A73B0A24181BB9A400DE9407 /* main.m */,
 				A73B0A26181BB9A400DE9407 /* APPinExpample-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A73B0A3D181BB9A400DE9407 /* APPinCodeExpampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				A73B0A43181BB9A400DE9407 /* APPinCodeExpampleTests.m */,
-				A73B0A3E181BB9A400DE9407 /* Supporting Files */,
-			);
-			path = APPinCodeExpampleTests;
-			sourceTree = "<group>";
-		};
-		A73B0A3E181BB9A400DE9407 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A73B0A3F181BB9A400DE9407 /* APPinExpampleTests-Info.plist */,
-				A73B0A40181BB9A400DE9407 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -218,24 +169,6 @@
 			productReference = A73B0A15181BB9A400DE9407 /* APPinExpample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A73B0A35181BB9A400DE9407 /* APPinExpampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A73B0A4A181BB9A400DE9407 /* Build configuration list for PBXNativeTarget "APPinExpampleTests" */;
-			buildPhases = (
-				A73B0A32181BB9A400DE9407 /* Sources */,
-				A73B0A33181BB9A400DE9407 /* Frameworks */,
-				A73B0A34181BB9A400DE9407 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A73B0A3C181BB9A400DE9407 /* PBXTargetDependency */,
-			);
-			name = APPinExpampleTests;
-			productName = APPinCodeExpampleTests;
-			productReference = A73B0A36181BB9A400DE9407 /* APPinExpampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,11 +177,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Alterplay;
-				TargetAttributes = {
-					A73B0A35181BB9A400DE9407 = {
-						TestTargetID = A73B0A14181BB9A400DE9407;
-					};
-				};
 			};
 			buildConfigurationList = A73B0A10181BB9A400DE9407 /* Build configuration list for PBXProject "APPinExpample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -264,7 +192,6 @@
 			projectRoot = "";
 			targets = (
 				A73B0A14181BB9A400DE9407 /* APPinExpample */,
-				A73B0A35181BB9A400DE9407 /* APPinExpampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,14 +212,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A73B0A34181BB9A400DE9407 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A73B0A42181BB9A400DE9407 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -309,23 +228,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A73B0A32181BB9A400DE9407 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A73B0A44181BB9A400DE9407 /* APPinCodeExpampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A73B0A3C181BB9A400DE9407 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A73B0A14181BB9A400DE9407 /* APPinExpample */;
-			targetProxy = A73B0A3B181BB9A400DE9407 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A73B0A21181BB9A400DE9407 /* InfoPlist.strings */ = {
@@ -342,14 +245,6 @@
 				A73B0A2B181BB9A400DE9407 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A73B0A40181BB9A400DE9407 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A73B0A41181BB9A400DE9407 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -453,48 +348,6 @@
 			};
 			name = Release;
 		};
-		A73B0A4B181BB9A400DE9407 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APPinCodeExpample.app/APPinCodeExpample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "APPinCodeExpample/APPinCodeExpample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "APPinCodeExpampleTests/APPinExpampleTests-Info.plist";
-				PRODUCT_NAME = APPinExpampleTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		A73B0A4C181BB9A400DE9407 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APPinCodeExpample.app/APPinCodeExpample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "APPinCodeExpample/APPinCodeExpample-Prefix.pch";
-				INFOPLIST_FILE = "APPinCodeExpampleTests/APPinExpampleTests-Info.plist";
-				PRODUCT_NAME = APPinExpampleTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -512,15 +365,6 @@
 			buildConfigurations = (
 				A73B0A48181BB9A400DE9407 /* Debug */,
 				A73B0A49181BB9A400DE9407 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A73B0A4A181BB9A400DE9407 /* Build configuration list for PBXNativeTarget "APPinExpampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A73B0A4B181BB9A400DE9407 /* Debug */,
-				A73B0A4C181BB9A400DE9407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
