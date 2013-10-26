@@ -64,8 +64,8 @@ You can feel free to customize pin view by changing its frame and position and s
     self.pinCodeView.normalPinImage = <#Your UIImage#>
 
 
+=======================
+If you have improvements or concerns, feel free to post [an issue](https://github.com/Alterplay/APPinViewController/issues) and write details.
 
-
-If you have improvements or concerns then create [an issue](https://github.com/Alterplay/APPinViewController/issues) and write details.
-
-*[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%APPinViewController) with other ideas and projects.*
+[Check out](https://github.com/Alterplay) other Alterplay's GitHub projects.
+[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%APPinViewController) with other ideas and projects.
