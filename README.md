@@ -57,7 +57,7 @@ Delegate:
 
     - (void)pinCodeViewController:(APPinViewController *)controller didFailVerificationWithCount:(NSUInteger)failsCount;
 
-...and ####one more thing.
+####...and one more thing.
 You can feel free to customize pin view by changing its frame and position and set image for pins:
 
     self.pinCodeView.selectedPinImage = <#Your UIImage#>
