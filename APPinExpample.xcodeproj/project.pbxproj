@@ -23,6 +23,12 @@
 		A73B0A53181BBA8400DE9407 /* APPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A4F181BBA8400DE9407 /* APPinView.m */; };
 		A73B0A54181BBA8400DE9407 /* APPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A51181BBA8400DE9407 /* APPinViewController.m */; };
 		A73B0A55181BBA8400DE9407 /* APPinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A52181BBA8400DE9407 /* APPinViewController.xib */; };
+		A73B0A5B181BBC4E00DE9407 /* pinViewSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A57181BBC4E00DE9407 /* pinViewSelected.png */; };
+		A73B0A5C181BBC4E00DE9407 /* pinViewSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A58181BBC4E00DE9407 /* pinViewSelected@2x.png */; };
+		A73B0A5D181BBC4E00DE9407 /* pinViewUnSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A59181BBC4E00DE9407 /* pinViewUnSelected.png */; };
+		A73B0A5E181BBC4E00DE9407 /* pinViewUnSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73B0A5A181BBC4E00DE9407 /* pinViewUnSelected@2x.png */; };
+		A73B0A61181BBDDC00DE9407 /* SamplePinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A60181BBDDC00DE9407 /* SamplePinViewController.m */; };
+		A73B0A64181BBE9200DE9407 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B0A63181BBE9200DE9407 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,14 @@
 		A73B0A50181BBA8400DE9407 /* APPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPinViewController.h; sourceTree = "<group>"; };
 		A73B0A51181BBA8400DE9407 /* APPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPinViewController.m; sourceTree = "<group>"; };
 		A73B0A52181BBA8400DE9407 /* APPinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APPinViewController.xib; sourceTree = "<group>"; };
+		A73B0A57181BBC4E00DE9407 /* pinViewSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewSelected.png; sourceTree = "<group>"; };
+		A73B0A58181BBC4E00DE9407 /* pinViewSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinViewSelected@2x.png"; sourceTree = "<group>"; };
+		A73B0A59181BBC4E00DE9407 /* pinViewUnSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinViewUnSelected.png; sourceTree = "<group>"; };
+		A73B0A5A181BBC4E00DE9407 /* pinViewUnSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinViewUnSelected@2x.png"; sourceTree = "<group>"; };
+		A73B0A5F181BBDDC00DE9407 /* SamplePinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamplePinViewController.h; sourceTree = "<group>"; };
+		A73B0A60181BBDDC00DE9407 /* SamplePinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplePinViewController.m; sourceTree = "<group>"; };
+		A73B0A62181BBE9200DE9407 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A73B0A63181BBE9200DE9407 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +134,10 @@
 				A73B0A4D181BB9F400DE9407 /* APPinVIewController */,
 				A73B0A27181BB9A400DE9407 /* AppDelegate.h */,
 				A73B0A28181BB9A400DE9407 /* AppDelegate.m */,
+				A73B0A62181BBE9200DE9407 /* RootViewController.h */,
+				A73B0A63181BBE9200DE9407 /* RootViewController.m */,
+				A73B0A5F181BBDDC00DE9407 /* SamplePinViewController.h */,
+				A73B0A60181BBDDC00DE9407 /* SamplePinViewController.m */,
 				A73B0A1F181BB9A400DE9407 /* Supporting Files */,
 			);
 			path = APPinCodeExpample;
@@ -159,6 +177,7 @@
 		A73B0A4D181BB9F400DE9407 /* APPinVIewController */ = {
 			isa = PBXGroup;
 			children = (
+				A73B0A56181BBC4E00DE9407 /* Resources */,
 				A73B0A4E181BBA8400DE9407 /* APPinView.h */,
 				A73B0A4F181BBA8400DE9407 /* APPinView.m */,
 				A73B0A50181BBA8400DE9407 /* APPinViewController.h */,
@@ -167,6 +186,17 @@
 			);
 			path = APPinVIewController;
 			sourceTree = SOURCE_ROOT;
+		};
+		A73B0A56181BBC4E00DE9407 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A73B0A57181BBC4E00DE9407 /* pinViewSelected.png */,
+				A73B0A58181BBC4E00DE9407 /* pinViewSelected@2x.png */,
+				A73B0A59181BBC4E00DE9407 /* pinViewUnSelected.png */,
+				A73B0A5A181BBC4E00DE9407 /* pinViewUnSelected@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -244,7 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73B0A5D181BBC4E00DE9407 /* pinViewUnSelected.png in Resources */,
+				A73B0A5C181BBC4E00DE9407 /* pinViewSelected@2x.png in Resources */,
 				A73B0A31181BB9A400DE9407 /* Images.xcassets in Resources */,
+				A73B0A5E181BBC4E00DE9407 /* pinViewUnSelected@2x.png in Resources */,
+				A73B0A5B181BBC4E00DE9407 /* pinViewSelected.png in Resources */,
 				A73B0A23181BB9A400DE9407 /* InfoPlist.strings in Resources */,
 				A73B0A55181BBA8400DE9407 /* APPinViewController.xib in Resources */,
 				A73B0A2C181BB9A400DE9407 /* Main.storyboard in Resources */,
@@ -266,7 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73B0A61181BBDDC00DE9407 /* SamplePinViewController.m in Sources */,
 				A73B0A53181BBA8400DE9407 /* APPinView.m in Sources */,
+				A73B0A64181BBE9200DE9407 /* RootViewController.m in Sources */,
 				A73B0A54181BBA8400DE9407 /* APPinViewController.m in Sources */,
 				A73B0A29181BB9A400DE9407 /* AppDelegate.m in Sources */,
 				A73B0A25181BB9A400DE9407 /* main.m in Sources */,
