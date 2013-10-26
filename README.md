@@ -67,4 +67,4 @@ If you have improvements or concerns, feel free to post [an issue](https://githu
 
 =======================
 *[Check out](https://github.com/Alterplay) all Alterplay's GitHub projects.*
-*[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%APPinViewController) with other ideas and projects.*
+*[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%20APPinViewController) with other ideas and projects.*
