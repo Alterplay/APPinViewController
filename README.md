@@ -1,4 +1,4 @@
-APPinCodeViewController
+APPinViewController
 =======================
 
 ####How to use:
@@ -49,3 +49,8 @@ Delegate:
         
         [self.navigationController popViewControllerAnimated:YES];
     }
+    
+### To handle unsuccessful attempts:
+
+    - (void)pinCodeViewController:(APPinViewController *)controller didFailVerificationWithCount:(NSUInteger)failsCount;
+
