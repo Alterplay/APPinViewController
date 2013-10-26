@@ -1,6 +1,9 @@
 APPinViewController
 =======================
 
+Easy drop-in component for iOS developers to deal easy with pin code logic. 
+We've tried to make make it reusable and customizable to save development time in our projects.
+
 ####How to use:
 1). Subclass APPinViewController:
 
