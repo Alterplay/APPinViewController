@@ -100,7 +100,7 @@
 		A73B0A1E181BB9A400DE9407 /* APPinCodeExpample */ = {
 			isa = PBXGroup;
 			children = (
-				A73B0A4D181BB9F400DE9407 /* APPinVIewController */,
+				A73B0A4D181BB9F400DE9407 /* APPinViewController */,
 				A73B0A27181BB9A400DE9407 /* AppDelegate.h */,
 				A73B0A28181BB9A400DE9407 /* AppDelegate.m */,
 				A73B0A62181BBE9200DE9407 /* RootViewController.h */,
@@ -125,7 +125,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A73B0A4D181BB9F400DE9407 /* APPinVIewController */ = {
+		A73B0A4D181BB9F400DE9407 /* APPinViewController */ = {
 			isa = PBXGroup;
 			children = (
 				A73B0A56181BBC4E00DE9407 /* Resources */,
@@ -134,6 +134,7 @@
 				A73B0A50181BBA8400DE9407 /* APPinViewController.h */,
 				A73B0A51181BBA8400DE9407 /* APPinViewController.m */,
 			);
+			name = APPinViewController;
 			path = APPinVIewController;
 			sourceTree = SOURCE_ROOT;
 		};
