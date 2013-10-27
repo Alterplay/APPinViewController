@@ -4,6 +4,9 @@ APPinViewController
 Easy drop-in component for iOS developers to deal easy with PIN (4 digit passcode) logic. 
 This is the first version but we truly tried to make it reusable and customizable enough to save development time.
 
+<img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APPin/screen1.png">
+<img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APPin/screen2.png">
+
 ###How to Use:
 1) Subclass APPinViewController:
 
