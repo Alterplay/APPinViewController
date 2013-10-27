@@ -1,19 +1,19 @@
 APPinViewController
 =======================
 
-Easy drop-in component for iOS developers to deal easy with pin code logic. 
-We've tried to make make it reusable and customizable to save development time in our projects.
+Easy drop-in component for iOS developers to deal easy with PIN (4 digit passcode) logic. 
+This is the first version but we truly tried to make it reusable and customizable enough to save development time.
 
-####How to use:
-1). Subclass APPinViewController:
+###How to Use:
+1) Subclass APPinViewController:
 
     @interface SamplePinViewController : APPinViewController
     
-2). Bind your APPinView with File Owner's 'pinCodeView' in Xib on StoryBoard. [Link](https://dl.dropboxusercontent.com/u/11819370/APPin/screen.png)
+2) Bind your APPinView with File Owner's 'pinCodeView' in Xib on StoryBoard. ([How to do it?](https://dl.dropboxusercontent.com/u/11819370/APPin/screen.png))
 
 ..and this is it.
 
-###To set pin:
+####To Set PIN:
     SamplePinViewController *pinVC = [SamplePinViewController new];
     [self.navigationController pushViewController:pinVC animated:YES];
 
@@ -25,7 +25,7 @@ Delegate:
         [self.navigationController popViewControllerAnimated:YES];
     }
     
-###To verify pin:
+####To Verify PIN:
 
     SamplePinViewController *pinVC = [SamplePinViewController new];
     pinVC.pinCodeToCheck = <#Your Pin To Verify#>;
@@ -38,7 +38,7 @@ Delegate:
         [self.navigationController popViewControllerAnimated:YES];
     }
     
-###To Change pin:
+####To Change PIN:
 
     SamplePinViewController *pinVC = [SamplePinViewController new];
     pinVC.pinCodeToCheck = <#Your Pin To Change#>;
@@ -53,7 +53,20 @@ Delegate:
         [self.navigationController popViewControllerAnimated:YES];
     }
     
-### To handle unsuccessful attempts:
+#### To Handle Unsuccessful Attempts:
 
     - (void)pinCodeViewController:(APPinViewController *)controller didFailVerificationWithCount:(NSUInteger)failsCount;
 
+####...and One More Thing:
+You can feel free to customize pin view by changing its frame and position and set image for pins:
+
+    self.pinCodeView.selectedPinImage = <#Your UIImage#>
+    self.pinCodeView.normalPinImage = <#Your UIImage#>
+    
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/7daa9a212c5f6fb4de960f744394ae2d "githalytics.com")](http://githalytics.com/Alterplay/APPinViewController)
+If you have improvements or concerns, feel free to post [an issue](https://github.com/Alterplay/APPinViewController/issues) and write details.
+
+=======================
+*[Check out](https://github.com/Alterplay) all Alterplay's GitHub projects.*
+*[Email us](mailto:hello@alterplay.com?subject=From%20GitHub%20APPinViewController) with other ideas and projects.*
