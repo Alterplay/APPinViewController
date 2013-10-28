@@ -1,5 +1,4 @@
-APPinViewController
-=======================
+<img src="https://dl.dropboxusercontent.com/u/2334198/APPinViewController-git-teaser.png">
 
 Easy drop-in component for iOS developers to deal easy with PIN (4 digit passcode) logic. 
 This is the first version but we truly tried to make it reusable and customizable enough to save development time.
@@ -65,8 +64,10 @@ You can feel free to customize pin view by changing its frame and position and s
     
 ####Example screenshots:
 
-<img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APPin/screen1.png">
-<img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APPin/screen2.png">
+<table width=0><tr>
+<td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APPin/screen1.png"></td>
+<td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APPin/screen2.png"></td>
+</tr></table>
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/7daa9a212c5f6fb4de960f744394ae2d "githalytics.com")](http://githalytics.com/Alterplay/APPinViewController)
 If you have improvements or concerns, feel free to post [an issue](https://github.com/Alterplay/APPinViewController/issues) and write details.
