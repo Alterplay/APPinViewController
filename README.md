@@ -64,7 +64,7 @@ You can feel free to customize pin view by changing its frame and position and s
     
 ####Example screenshots:
 
-<table width=0><tr>
+<table border-width=0><tr>
 <td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APPin/screen1.png"></td>
 <td><img width=320 src="https://dl.dropboxusercontent.com/u/11819370/APPin/screen2.png"></td>
 </tr></table>
