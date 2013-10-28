@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'APPinViewController'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.platform     = :ios, '6.0'
   s.homepage     = 'https://github.com/Alterplay/APPinViewController'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   }
   s.source = {
     :git => 'https://github.com/Alterplay/APPinViewController.git',
-    :tag => '1.0.1'
+    :tag => '1.0.2'
   }
   s.source_files = 'APPinViewController/*.{h,m}'
   s.requires_arc = true
