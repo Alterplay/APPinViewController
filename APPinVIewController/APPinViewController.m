@@ -78,17 +78,24 @@
 }
 
 #pragma mark - Pin Code View Delegate
-- (void)pinCodeView:(APPinView *)view didEnterPin:(NSString *)pinCode {
-    view.pinCode = nil;
-    
-    //Verify case
-    if (self.pinCodeToCheck != nil && !self.shouldResetPinCode) {
-        [self verifyPinWithEntered:pinCode];
-    } else if (self.pinCodeToCheck != nil && self.shouldResetPinCode) {
-        [self changePinWithEntered:pinCode];
-    } else {
-        [self setEnteredPin:pinCode];
-    }
+- (void)pinCodeView:(APPinView*)view didEnterPin:(NSString*)pinCode
+{
+    // Small Hack to give time to show the last entered number
+    double delayInSeconds = 0.15;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+
+        view.pinCode = nil;
+
+        //Verify case
+        if (self.pinCodeToCheck != nil && !self.shouldResetPinCode) {
+            [self verifyPinWithEntered:pinCode];
+        } else if (self.pinCodeToCheck != nil && self.shouldResetPinCode) {
+            [self changePinWithEntered:pinCode];
+        } else {
+            [self setEnteredPin:pinCode];
+        }
+    });
 }
 
 #pragma mar - Pins Logic
